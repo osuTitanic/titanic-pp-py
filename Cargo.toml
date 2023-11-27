@@ -1,18 +1,18 @@
 [package]
-name = "akatsuki-pp-py"
-version = "1.0.0"
+name = "titanic-pp-py"
+version = "0.0.1"
 description = "osu! difficulty and pp calculation for all modes"
-authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>"]
+authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>", "Lekuruu <contact@lekuru.xyz>", "kanaarima <akataltosu@gmail.com>"]
 license = "MIT"
 edition = "2021"
 
 [lib]
-name = "akatsuki_pp_py"
+name = "titanic_pp_py"
 crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.17", features = ["extension-module", "macros"] }
-akatsuki-pp = { git = "https://github.com/osuAkatsuki/akatsuki-pp-rs", rev = "a8b4eaffb2274d2e86ff042b7327286e13b6488d" }
+titanic-pp = { git = "https://github.com/osuTitanic/titanic-pp-rs", rev = "a66a69807716edb6055c8ac023b33f37ba956ae3" }
 
 [profile.release]
 lto = "fat"
