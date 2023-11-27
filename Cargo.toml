@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 pyo3 = { version = "0.17", features = ["extension-module", "macros"] }
-titanic-pp = { git = "https://github.com/osuTitanic/titanic-pp-rs", rev = "a66a69807716edb6055c8ac023b33f37ba956ae3" }
+titanic-pp = { git = "https://github.com/osuTitanic/titanic-pp-rs", rev = "bfe46414b1a2dae4a8d1de70810a7023549a90f7" }
 
 [profile.release]
 lto = "fat"
