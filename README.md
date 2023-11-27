@@ -1,3 +1,3 @@
-# titanic-rx-py
+# titanic-pp-py
 
 This is a work in progress...
