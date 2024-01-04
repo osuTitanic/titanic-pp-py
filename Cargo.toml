@@ -1,6 +1,6 @@
 [package]
 name = "titanic-pp-py"
-version = "0.0.5"
+version = "0.0.6"
 description = "osu! difficulty and pp calculation for all modes"
 authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>", "Lekuruu <contact@lekuru.xyz>", "kanaarima <akataltosu@gmail.com>"]
 license = "MIT"
