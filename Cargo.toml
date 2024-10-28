@@ -1,6 +1,6 @@
 [package]
 name = "titanic-pp-py"
-version = "0.0.6"
+version = "0.0.7"
 description = "osu! difficulty and pp calculation for all modes"
 authors = ["Max Ohn <ohn.m@hotmail.de>", "tsunyoku <tsunyoku@gmail.com>", "Lekuruu <contact@lekuru.xyz>", "kanaarima <akataltosu@gmail.com>"]
 license = "MIT"
@@ -9,6 +9,9 @@ edition = "2021"
 [lib]
 name = "titanic_pp_py"
 crate-type = ["cdylib"]
+
+[features]
+py_limited_api = []
 
 [dependencies]
 pyo3 = { version = "0.17", features = ["extension-module", "macros"] }
