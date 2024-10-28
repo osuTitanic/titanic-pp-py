@@ -203,7 +203,7 @@ source = "git+https://github.com/osuTitanic/titanic-pp-rs?rev=90fe7b01f925ae4bc6
 
 [[package]]
 name = "titanic-pp-py"
-version = "0.0.6"
+version = "0.0.7"
 dependencies = [
  "pyo3",
  "titanic-pp",
