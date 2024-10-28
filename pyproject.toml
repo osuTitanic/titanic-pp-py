@@ -1,5 +1,5 @@
 [build-system]
-requires = ["maturin>=1.0,<2.0"]
+requires = ["maturin>=0.14,<0.15"]
 build-backend = "maturin"
 
 [project]
@@ -16,6 +16,7 @@ classifiers = [
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
 ]
+packages = [{ include = "titanic_pp_py" }]
 authors = [
     { name = "Max Ohn", email = "ohn.m@hotmail.de" },
     { name = "tsunyoku", email = "tsunyoku@gmail.com" },
@@ -24,6 +25,7 @@ authors = [
 ]
 readme = "README.md"
 license = { file = "LICENSE" }
+repository = "https://github.com/osuTitanic/titanic-pp-py"
 keywords = ["osu", "pp", "stars", "performance", "difficulty"]
 
 [project.urls]
