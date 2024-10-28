@@ -198,12 +198,12 @@ checksum = "14c39fd04924ca3a864207c66fc2cd7d22d7c016007f9ce846cbb9326331930a"
 
 [[package]]
 name = "titanic-pp"
-version = "0.0.4"
-source = "git+https://github.com/osuTitanic/titanic-pp-rs?rev=a12769010886b71df266c2791051932f2480bf59#a12769010886b71df266c2791051932f2480bf59"
+version = "0.0.5"
+source = "git+https://github.com/osuTitanic/titanic-pp-rs?rev=90fe7b01f925ae4bc66053f1111c5cc2031313b7#90fe7b01f925ae4bc66053f1111c5cc2031313b7"
 
 [[package]]
 name = "titanic-pp-py"
-version = "0.0.5"
+version = "0.0.6"
 dependencies = [
  "pyo3",
  "titanic-pp",
