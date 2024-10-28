@@ -38,7 +38,7 @@ jobs:
       - name: Build wheels - universal2
         uses: PyO3/maturin-action@v1
         with:
-          args: --release --out dist -- --universal2
+          args: --release --out dist
 
       - name: Install built wheel - universal2
         run: |
