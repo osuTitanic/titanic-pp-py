@@ -10,9 +10,6 @@ edition = "2021"
 name = "titanic_pp_py"
 crate-type = ["cdylib"]
 
-[features]
-py_limited_api = []
-
 [dependencies]
 pyo3 = { version = "0.17", features = ["extension-module", "macros"] }
 titanic-pp = { git = "https://github.com/osuTitanic/titanic-pp-rs", rev = "90fe7b01f925ae4bc66053f1111c5cc2031313b7" }
